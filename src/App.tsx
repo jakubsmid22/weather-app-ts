@@ -41,6 +41,7 @@ const App = () => {
         console.log(res.data);
       })
       .catch((err) => {
+        console.error(err);
         alert("City not found");
       })
       .finally(() => {
